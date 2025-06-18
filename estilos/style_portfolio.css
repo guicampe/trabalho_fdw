@@ -1,0 +1,33 @@
+.projeto {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    border-radius: 18px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.15);
+}
+
+.imagemProjeto {
+    margin: 15px;
+    box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.185);
+    border-radius: 20px;
+}
+
+main h3 {
+    margin: 8px;
+}
+
+main a {
+    text-decoration: none;
+    color: #00bcd4;
+}
+
+main a:hover {
+    color: #c9c9c9;
+}
+
+main a::before {
+    content: "\1F517";
+}
