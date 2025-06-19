@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .projeto {
     display: flex;
     flex-flow: column-reverse nowrap;
@@ -28,6 +30,7 @@ main a:hover {
     color: #c9c9c9;
 }
 
+/* ícone indicando link externo */
 main a::before {
     content: "\1F517";
 }
