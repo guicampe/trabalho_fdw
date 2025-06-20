@@ -18,6 +18,7 @@
     box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.15);
 }
 
+/* classe que recebe o toggle no javascript */
 .projeto.ativo {
     max-height: 1000px;
     padding: 10px;
@@ -43,11 +44,12 @@ main a:hover {
     color: #c9c9c9;
 }
 
-/* ícone indicando link externo */
+/* icone indicando link externo */
 main a::before {
     content: "\1F517";
 }
 
+/* icone importado do material icons */
 .material-symbols-outlined {
     cursor: pointer;
     color: #0288d1;
